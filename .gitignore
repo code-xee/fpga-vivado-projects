@@ -1,0 +1,38 @@
+# Vivado project artifacts
+*.jou
+*.log
+*.str
+*.xpr
+.Xil/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/
+*.gen/
+*.hbs/
+*.sdk/
+
+# Vitis/SDK software build artifacts
+.metadata/
+*.elf
+*.bit
+*.bin
+*.mmi
+*.xsa
+Debug/
+Release/
+
+# Simulation outputs
+*.vcd
+*.wdb
+*.vvp
+*.out
+work/
+transcript
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
