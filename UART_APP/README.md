@@ -16,3 +16,8 @@ The PL instantiates the custom `UART_RX` and `UART_TX` cores. Incoming serial da
 ## Build and run
 
 Open Vivado, switch to the Tcl Console, `cd` into the `tcl` folder and `source <script>.tcl` to rebuild the project. Check the `xdc` constraints match your board before generating the bitstream. Export the hardware, then in Vitis import `sw_SDK`, build, and run on the board, driving the design from a serial terminal.
+
+## Requirements
+
+- **Board:** Zybo Z7-20
+- **Vivado:** 2019.1 (Vitis/SDK 2019.1 for the PS software)
