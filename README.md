@@ -2,6 +2,13 @@
 
 A collection of complete Xilinx Vivado projects targeting Zynq-based boards (e.g. Zybo), combining programmable-logic (RTL) designs with PS bare-metal software where applicable. Each project folder contains RTL sources, a Tcl script to regenerate the Vivado project and block design, and any matching testbench or software needed to run it. New projects are added over time, so browse the folder list in this repository to see what's currently available.
 
+## Requirements
+
+- **Board:** Digilent Zybo Z7-20 (Zynq-7000)
+- **Tools:** Xilinx Vivado 2019.1 (and Vitis/SDK 2019.1 for the PS software)
+
+The Tcl scripts and XDC constraints were created for this board and toolchain version. Rebuilding with a different Vivado version or board may require updating the target part, the constraints, and the block design.
+
 ## Getting Started
 
 ### 1. Clone the repository
@@ -21,4 +28,4 @@ cd fpga-vivado-projects
 ## Notes
 
 - These are board-level Zynq projects (PS + PL), not simulation-only RTL modules - most require Vivado's IP Integrator / block-design flow rather than plain RTL simulation.
-- Some projects target a specific board (e.g. Zybo); check each Tcl script/XDC before building for a different board.
+- Projects target the Zybo Z7-20 and were built with Vivado 2019.1; check each Tcl script/XDC before building for a different board or tool version.
