@@ -18,3 +18,8 @@ A simulation-only project that exercises a Xilinx FIFO Generator IP in Vivado. A
 ## Run the simulation
 
 Open Vivado, switch to the Tcl Console, `cd` into the `tcl` folder and `source <script>.tcl` to rebuild the project (this regenerates the FIFO IP). Set `test_bench` as the simulation top, then run Behavioral Simulation to view the waveforms.
+
+## Requirements
+
+- **Board:** Zybo Z7-20 (simulation-only; no board needed to run the testbench)
+- **Vivado:** 2019.1
