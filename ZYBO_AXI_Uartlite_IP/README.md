@@ -14,3 +14,8 @@ The block design instantiates the AXI Uartlite IP and connects it to the PS via 
 ## Build and run
 
 Open Vivado, switch to the Tcl Console, `cd` into the `tcl` folder and `source <script>.tcl` to rebuild the project and block design. Generate the bitstream and export the hardware, then in Vitis import `sw_SDK`, build, and run it on the board, using a serial terminal on the Uartlite pins to exchange characters.
+
+## Requirements
+
+- **Board:** Zybo Z7-20
+- **Vivado:** 2019.1 (Vitis/SDK 2019.1 for the PS software)
