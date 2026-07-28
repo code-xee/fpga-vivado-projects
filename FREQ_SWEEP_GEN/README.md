@@ -22,3 +22,8 @@ A frequency-sweep (chirp) signal generator for FPGA. The core produces a ramping
 ## Run the simulation
 
 Open Vivado, switch to the Tcl Console, `cd` into the `tcl` folder and `source <script>.tcl` to rebuild the project. Set the testbench as the simulation top and run Behavioral Simulation to watch `phase_inc` ramp across the sweep.
+
+## Requirements
+
+- **Board:** Zybo Z7-20 (simulation-only; no board needed to run the testbench)
+- **Vivado:** 2019.1
