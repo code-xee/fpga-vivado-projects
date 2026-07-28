@@ -17,3 +17,9 @@ An end-to-end low-pass FIR filter example for Zynq, taking the design from MATLA
 ## Build and run
 
 Run the MATLAB scripts first to design the filter and generate test data. Then open Vivado, switch to the Tcl Console, `cd` into the `tcl` folder and `source <script>.tcl` to rebuild the project. Generate the bitstream, export the hardware, and in Vitis import `sw_SDK`, build, and run on the board.
+
+## Requirements
+
+- **Board:** Zybo Z7-20
+- **Vivado:** 2019.1 (Vitis/SDK 2019.1 for the PS software)
+- **MATLAB:** required for the filter design and test-signal scripts in `matlab/`
