@@ -19,3 +19,9 @@ The PL contains two AXI GPIO instances: one wired to the four buttons (input) an
 ## Build and run
 
 Open Vivado, switch to the Tcl Console, `cd` into the `tcl` folder and `source <script>.tcl` to rebuild the project and block design. Generate the bitstream and export the hardware, then in Vitis import `sw_SDK/main.c`, build, and run on the board. Press the buttons and watch the LEDs and the UART console.
+
+
+## Requirements
+
+- **Board:** Zybo Z7-20
+- **Vivado:** 2019.1 (Vitis/SDK 2019.1 for the PS software)
